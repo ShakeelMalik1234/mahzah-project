@@ -1,0 +1,53 @@
+.text-color{
+    color: #681C20;
+    justify-content: center;
+}
+.text-color .text-center img{
+    margin: 20px auto;
+    width: 150px;
+}
+.progress-bar{
+    background-color: #4CC861;
+}
+.progress{
+    width: 100%;
+    height: 8px;
+    padding: 0;
+}
+.welcome-mahzah{
+    margin: 45px 0;
+    padding: 55px;
+    box-shadow: 0px 6px 16px #00000026;
+    border-radius: 6px;
+}
+.welcome-mahzah h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.welcome-mahzah p{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.welcome-mahzah .select-about {
+    margin-top: 40px;
+}
+.welcome-mahzah .select-about label{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.welcome-mahzah .select-about label span{
+    font-size: 12px;
+}
+.form-select{
+    color: #abafb3;
+}
+.welcome-mahzah .btn-next{
+    color: white;
+    background-color: #681C20;
+    padding: 5px 45px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0;
+}

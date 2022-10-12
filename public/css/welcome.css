@@ -1,0 +1,58 @@
+.text-color{
+    color: #681C20;
+    justify-content: center;
+}
+.text-color .text-center img{
+    margin: 20px auto;
+    width: 150px;
+}
+.progress-bar{
+    background-color: #4CC861;
+}
+.progress{
+    height: 8px;
+    padding: 0;
+}
+.welcome-mahzah{
+    margin-top: 45px;
+    padding: 55px;
+    box-shadow: 0px 6px 16px #00000026;
+    border-radius: 6px;
+}
+.welcome-mahzah h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.welcome-mahzah p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+.welcome-mahzah label{
+    color: black;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.welcome-mahzah .enter-school-name{
+    margin-top: 50px;
+}
+.welcome-mahzah .skip-next{
+    justify-content: end;
+    display: flex;
+    margin-top: 30px;
+}
+.welcome-mahzah .skip-next a:first-child{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 20px;
+
+}
+.welcome-mahzah .skip-next .btn-next{
+    color: white;
+    background-color: #681C20;
+    padding: 5px 45px;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,164 @@
+.text-color{
+    color: #681C20;
+    justify-content: center;
+}
+.text-color .text-center img{
+    margin: 60px auto;
+    width: 150px;
+}
+.mahza-login{
+    box-shadow: 1px 2px 11px #00000052;
+    border-radius: 12px;
+    padding: 0 40px;
+    margin: 0 0 70px 0px;
+}
+.mahza-login h1{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}
+.mahza-login form label{
+    margin-bottom: 0;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mahza-login form .password-set{
+    position: relative;
+}
+.mahza-login form #password{
+    width: 86%;
+    display: inline;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+.mahza-login form .password-set #hide_eye{
+    border: 1px solid lightgray;
+    border-left: none;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 11px 10px 15px;
+    color: #681C20;
+}
+.mahza-login form .password-set #show_eye {
+    border: 1px solid lightgray;
+    border-left: none;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 11px 10px 17px;
+    display: none;
+    color: #681C20;
+}
+.mahza-login form .form-check a{
+    text-decoration: none;
+    float: right;
+}
+.mahza-login form .form-check input{
+    border-color: #681C20;    
+}
+.mahza-login form button{
+    background-color:  #681C20;
+    color: white;
+    margin: 20px 0px;
+    padding: 15px 0;
+}
+.mahza-login form button:hover{
+    color: white;
+    box-shadow: 0px 4px 7px #681c207a;
+}
+.mahza-login form button i{
+    padding: 0 10px;
+    font-size: 15px;
+}
+.mahza-login form .route-ragistration{
+    text-align: center;
+}
+.mahza-login form .route-ragistration label{
+    padding: 20px 0;
+}
+.mahza-login form .route-ragistration label a{
+    color:  #681C20;
+    font-weight: 700;
+}
+.mahza-login form .route-ragistration p{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+}
+.mahza-login form .route-ragistration p::before{
+    height: 1px;
+    position: absolute;
+    left: -51px;
+    top: 12px;
+    background: lightgray;
+    content: '';
+    border-radius: 0 7px 7px 0;
+    width: 200px;
+}
+.mahza-login form .route-ragistration p::after{
+    height: 1px;
+    position: absolute;
+    right: -51px;
+    top: 12px;
+    background: lightgray;
+    content: '';
+    border-radius: 0 7px 7px 0;
+    width: 200px;
+}
+.mahza-login form .route-ragistration h3{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mahza-login form .route-ragistration .icon{
+    padding-bottom: 20px;
+}
+.mahza-login form .route-ragistration .icon img{
+    padding: 0 5px;
+    width: 55px;
+}
+@media (max-width: 1200px){
+    .mahza-login form #password {
+        width: 84%;
+    }
+    .mahza-login form .route-ragistration p::after {
+        width: 175px;
+    }
+    .mahza-login form .route-ragistration p::before {
+        width: 175px;
+    }
+}
+@media (max-width: 767px){
+    .mahza-login form #password {
+        width: 87%;
+    }
+    .mahza-login form .route-ragistration p::after {
+        width: 210px;
+    }
+    .mahza-login form .route-ragistration p::before {
+        width: 210px;
+    }
+}
+@media (max-width: 540px){
+    .mahza-login form .route-ragistration p::after {
+        width: 60%;
+    }
+    .mahza-login form .route-ragistration p::before {
+        width: 60%;
+    }
+    .mahza-login {
+        padding: 0 42px;
+    }
+}
+@media (max-width: 440px){
+    .mahza-login form #password {
+        width: 83%;
+    }
+}
+@media (max-width: 375px){
+    .mahza-login form #password {
+        width: 79%;
+    }
+}
